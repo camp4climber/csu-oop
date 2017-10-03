@@ -1,0 +1,1 @@
+When deleting the catalog in the constructor. Delete is called on 'MediaItem' NOT on the derived class. The MediaItem destructor does not free the author and director that were allocated in the derived classes. We need to make sure the destructor for MediaItem is virtual, so that the correct destructor is called.

@@ -1,0 +1,16 @@
+This code is using multiple inheritance. This introduces a problem of ambiguity. It's possible that the two base classes implement a method of the same name while the derived class doesn't. When the method is called on the derived class it won't know which of the base class functions to call. In order to fix this ambiguity, you need to explicitly declare which of the base class functions to call.
+
+This code also has a Diamond Design. If we instantiate a tesla, does it get 2 copies of the transportation base class? Bad vibes.
+                   
+
+                 transportation
+                 ^            ^
+                /              \
+             Car                ElectricPoweredVehicle
+               ^                ^ 
+                \              /    
+                     Tesla
+
+How would we fix?
+
+Things can be fixed by explicit scoping when calling methods on the derived classes. Virtual inheritance is another way to get rid of ambiguity. Force the derived classes to implement their own methods and data.

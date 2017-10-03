@@ -1,0 +1,3 @@
+Create a base Fruit class for the given derived class so that the main()
+function will compile and run correctly. Do not modify any existing code.
+Just add the base class.

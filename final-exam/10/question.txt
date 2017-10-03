@@ -1,0 +1,27 @@
+The Superhero Class is the Base class and Batman and Superman are derived
+classes (see diagram). Write the three classes, their constructors, and the
+display function. The base class will have two constructors. The expected
+output is shown below. Make sure everything is const-correct, virtual keyword
+where needed, references, initialization lists, etc. The derived constructors
+should be default and hard-coded.  The main function is provided.
+
+
+---------------------------Original Display----------------------------
+This is The Super Hero Class Called
+	 ::: Super Hero :::
+
+-------------------------Batman calling----------------------------
+This is The Super Hero Class Called
+	 ::: Super Hero :::
+Strength: 8
+Weapon: Batterrang
+The real name is Bruce Wayne.
+The super hero name is Batman
+
+-------------------------Superman calling-------------------------
+This is The Super Hero Class Called
+	 ::: Super Hero :::
+Strength: 10
+Weapon: No Weapon
+The real name is Clark Kent
+The super hero name is Superman

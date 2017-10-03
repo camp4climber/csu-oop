@@ -1,0 +1,3 @@
+A friend of yours has been working on a simplified version of the Gavelton Library
+project, but has found that their code has a memory error. Can you help them identify the
+cause of the leak?

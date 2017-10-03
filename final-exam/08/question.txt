@@ -1,0 +1,13 @@
+1. Why would you want to use a template with your code? Change the declaration
+   into a template and show how you would instantiate an object of that template
+   for floats.
+
+	class stack
+        {
+                public:
+                        void           push_back( int );
+                        int            size();
+                        int            pop_front();
+                private:
+                        int            value
+        }

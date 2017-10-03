@@ -1,0 +1,95 @@
+Problem:
+When printing the items from main there is a strange bit of repetition being
+printed. Fix The book and media classes so only one book is printed as shown below.
+Do not modify or override media's print function. Do not modify main.py.
+Describe why this happened.
+
+This happened because the "items" array was not a class variable, so when you added to items in media and book, it all added to the same items array, thus the line that inserted "Book: " to the beginning of items added to the beginning of that array every time it was called
+
+==============
+Desired output
+==============
+Book:
+Call Number: cn1
+Title: t
+Subject: s
+Notes: n
+Description: d
+Year: s
+Author: a
+Publisher: r
+City: c
+Series: s
+
+
+
+========================
+Current undesired output
+========================
+Book:
+Book:
+Book:
+Book:
+Book:
+Book:
+Call Number: cn1
+Title: t
+Subject: s
+Notes: n
+Description: d
+Year: s
+Author: a
+Publisher: r
+City: c
+Series: s
+Call Number: cn2
+Title: t
+Subject: s
+Notes: n
+Description: d
+Year: s
+Author: a
+Publisher: r
+City: c
+Series: s
+Call Number: cn3
+Title: t
+Subject: s
+Notes: n
+Description: d
+Year: s
+Author: a
+Publisher: r
+City: c
+Series: s
+Call Number: cn4
+Title: t
+Subject: s
+Notes: n
+Description: d
+Year: s
+Author: a
+Publisher: r
+City: c
+Series: s
+Call Number: cn5
+Title: t
+Subject: s
+Notes: n
+Description: d
+Year: s
+Author: a
+Publisher: r
+City: c
+Series: s
+Call Number: cn6
+Title: t
+Subject: s
+Notes: n
+Description: d
+Year: s
+Author: a
+Publisher: r
+City: c
+Series: s
+

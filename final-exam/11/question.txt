@@ -1,0 +1,13 @@
+Define a simple C++ class obj, such that the following code will work:
+
+obj obj1();
+
+obj1
+ .initiate()
+ .show()
+ .all();
+
+obj1
+ .initiate()
+ .all()
+ .show();

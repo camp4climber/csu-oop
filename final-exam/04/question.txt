@@ -1,0 +1,3 @@
+The Ford company has revenue of 2300 million.  Write the code to overload the
+++ operator.  The operator should increase the revenue of Ford by 100 million
+Don't modify the main-function. Just write the overloaded operator.

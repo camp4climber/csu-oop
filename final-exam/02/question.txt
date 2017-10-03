@@ -1,0 +1,10 @@
+1. Write printClass's send_fun function as directed in the comments located in
+   that function
+2. send_fun function should be one liner only (a return statement).
+3. Fix compilation or runtime errors if any.
+
+Expected output:
+HELLO PROFESSOR
+HELLO STUDENTS
+1
+2

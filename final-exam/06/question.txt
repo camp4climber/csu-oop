@@ -1,0 +1,6 @@
+Write a class named FinalClass. 
+1) The private data should be a deque of integers.
+2) Overload the + operator to let you add any two FinalClasses together and
+   concatenate them into one FinalClass.
+3) Overload the << operator to pop all contents off the deque and display them.
+4) You may code your class above the main-function that is provided.

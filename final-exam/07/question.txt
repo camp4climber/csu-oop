@@ -1,0 +1,12 @@
+You have three structures given, struct_A,struct_B and struct_C.
+struct_A has a character type element, an integer type element
+and an double type element. struct_B has an integer type element and an
+char type element. struct_C has an integer type element and character type element.
+How are the sizes of struct_A*,struct_B* and struct_C* related?
+Choose all that apply. (A = size for struct_A*, B = size for struct_B*, C = size for struct_C*)
+a. A > B > C
+b. A > B && A > C && B == C
+c. A = B
+d. B > A &&  C > A
+e. A = C
+f. B = C

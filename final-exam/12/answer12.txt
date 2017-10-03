@@ -1,0 +1,4 @@
+P1 is converting a string literal to a pointer to a char. This is deprecated according to g++.
+P2 is allocating 5 blocks and casting that to a pointer to a char.
+
+Their sizes are different. p1 points to a string "word". p2 points to an empty character array.

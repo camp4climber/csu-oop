@@ -1,0 +1,3 @@
+Question: 
+This design could possibly cause a problem. Briefly explain the problem. How
+would you go about fixing the code (in C++) to make this design work properly?
